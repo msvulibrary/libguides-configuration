@@ -1,0 +1,295 @@
+<!-- LIVE HELP CODE BEGINS -->
+<script type="text/javascript" src="https://ca.libraryh3lp.com/js/libraryh3lp.js?multi"></script>
+ <!-- <style type="text/css" media=screen>
+
+ /* START OF STYLE OF LIVEHELP CHAT BOX */
+ .offline_box {
+ background: #B0C4DE;
+ width: 200px;
+ text-align: center;
+ padding: 3px 3px 5px 3px;
+ border: 1px solid gray;
+ }
+
+ .style2 {font-family: "Courier New", Courier, mono}
+/*END OF  LibraryH3lp script for offline message box */
+</STYLE>-->
+
+<!-- LIBANSWERS WIDGET -->
+<script src="https://api2-ca.libanswers.com/1.0/widgets/3633"></script>
+<script src="https://api2-ca.libanswers.com/1.0/widgets/6721"></script>
+<!-- END LIBANSWERS WIDGET -->
+
+<!-- START OF FONT AWESOME -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<!-- END OF FONT AWESOME -->
+
+
+<!-- START OF STYLE FOR LIBGUIDES -->
+<style>
+
+/* HEADER FOR GUIDES AND ANSWERS */
+/* logo with ribbons */
+.banner {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(https://libapps-ca.s3.amazonaws.com/customers/1065/images/mount-web-header-libcal.png) no-repeat;
+  width: 100%;
+}
+
+/* PAGE COLOR & WIDTHS */
+body {
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #ffffff;
+        font-family: verdana, sans-serif;
+	}
+
+.breadcrumb {
+  background-color: #ffffff;
+}
+
+.s-lg-tab-content {
+   font-size: 1.25em;
+ width:90%;
+padding: 5px
+}
+
+
+.s-lg-guide-main {
+   font-size: 1.15em;
+}
+
+
+
+
+.container.footer {
+	 width:92%;
+	 }
+
+.s-lg-guide-header {
+    width:90%;
+}
+
+	 /* END OF PAGE WIDTHS */
+
+	 /*START OF LINK COLOUR */
+	 /* IF CHANGING THE COLOUR OR ADDING VISITED LINK COLOUR, PLEASE CHECK IMPACT ON BOTH THE GUIDES AND THE LIBGUIDE HOME PAGE */
+
+ a, .ui-widget-content a {
+	color: #00529B;
+	font-weight: 500;
+	}
+
+.list-group-item a {
+       font-weight: 400;
+}
+
+a:hover, .ui-widget-content a {
+	color: #2e98cf;
+	text-decoration: underline;
+	}
+
+a:active, .ui-widget-content a {
+	color: #2e98cf;
+	text-decoration: underline;
+	}
+ /* END OF LINK COLOUR */
+
+/*LISTS*/
+
+#s-lg-guide-main li {
+  margin-left: 40px;
+}
+
+  /*START OF HEADINGS*/
+ h1 {
+  font-size: 1.75em;
+  color:#71726D;
+  font-family: verdana, sans-serif;
+  margin-bottom: 0.2em;
+  line-height: 1.1em;
+  /*  font-weight: bold;	 */
+  }
+ h2 {
+ font-size: 1.5em;
+ color:#000000;
+ font-family: verdana, sans-serif;
+  margin-bottom: 0.2em;
+  line-height: 1.1em;
+  display: block;
+  }
+ h3 {
+font-size: 1.3em;
+ color: #555555;
+ font-family: verdana, sans-serif;
+/*  font-weight: bold;  */
+ margin-bottom: 0.6em;
+ line-height: 1.1em;
+ display: block;
+ }
+ h4 {
+font-size: 1.15em;
+ color: #555555;
+font-family: verdana, sans-serif;
+/*   font-weight: bold; */
+/* margin-bottom: 0.6em;	 */
+/* line-height: 1.1em;	 */
+ display: block;
+ }
+h5 {
+color: #000000;
+/* font-weight: bold; */
+font-family: verdana, sans-serif;
+}
+/*   h5 {	 	 */
+/*  font-size: 12px;	 */
+/* font-weight: bold;	 */
+/*  color: #000000;  	 */
+/*  background-color: #a0cbed;		 */
+/* padding: 10px 10px 10px 10px; 	 */
+/* margin: -8px;	 */
+/* font-family: arial, sans-serif;	*/
+/* display: block;         	 */
+/*  }  */
+
+  /*END OF HEADINGS */
+
+
+
+
+
+/* SIDE NAV CUSTOMIZATION */
+/* This code is changing the default settings for the text in the side navigation menu*/
+
+
+
+
+#s-lib-admin-bc .breadcrumb, #s-lib-bc .breadcrumb {
+   font-weight: normal;
+   font-size: 1em;
+}
+
+#s-lg-tabs-container .nav-tabs > li > a, #s-lg-tabs-container .nav-tabs > li > button, #s-lg-tabs-container .nav-pills > li > a, #s-lg-tabs-container .nav-pills > li > button {
+  font-weight: 500;
+}
+
+/* This is the font weight for menu items (with a nested menu) */
+#s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link, #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover, #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-top-link, #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-top-link:hover {
+   font-weight: 500;
+}
+
+  /* Box Titles *//* Shared box title props */
+  .s-lib-box .s-lib-box-title {
+  font-weight: normal;
+  font-family: verdana, sans-serif;
+  padding: 6px 8px;
+  border-bottom: 0px solid #CCC;
+  border-radius: 3px 3px 0px 0px;
+  font-size: 160%;
+  margin-top: 0px;}
+
+  /* A-Z LIST - Linking Instruction in More Information field */
+.s-lg-database-moreinfo {
+font-size: 1 em;
+font-family: verdana, sans-serif;
+line-height: 150%;
+ margin-left: 1%;
+ margin-right: 5%;
+ padding: 1% 3% 1%  2%;
+ border: 1px solid #ccc;
+ }
+
+ /*BULLETED LISTS IN RICH TEXT */
+ ul {
+	 margin-left: 5px;
+	 margin-right: 0px;
+	 padding-left: 5px;
+	 padding-right: 0px;
+	 }
+/*END OF BULLETED LISTS IN RICH TEXT */
+
+/*CHANGE COLOUR OF 'EMAIL ME' BUTTON*/
+.s-lib-profile-email .label-info {
+          background: #FFFFFF;
+          border: 1px solid #CCCCCC;
+          border-radius: 4px;
+          color: #333333;
+          font: 12px Verdana, sans serif;
+          padding: 8px 20px;
+         cursor: pointer;
+         }
+.s-lib-profile-email .label-info:hover {
+        opacity: 0.9;
+        background: #c7ced8;
+        color: #333333;
+        }
+
+
+/*END OF CHANGE COLOUR OF 'EMAIL ME' BUTTON*/
+
+/*START OF MOUNT ROLL-OVER BUTTONS*/
+.ow_block a.navy-button,.ow_block a.grey-button,.ow_block a.solid-green-button {
+display:inline-block;
+margin:6px 0;
+padding:10px;
+color:#fff;
+text-decoration:none;
+border-radius: 8px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+transition: background 0.25s;
+-moz-transition: background 0.25s; 	/* Firefox 4 */
+-webkit-transition: background 0.25s; 	/* Safari and Chrome */
+-o-transition: background 0.25s; 	/* Opera */
+}
+.ow_block a.navy-button  {
+background:#00529b;
+}
+.ow_block a.navy-button:hover {
+background:#006ecf;
+}
+.ow_block a.grey-button {
+background:#989898;
+}
+.ow_block a.grey-button:hover {
+background:#b3b3b3;
+}
+.ow_block a.solid-green-button  {
+background:#afbd22;
+}
+.ow_block a.solid-green-button:hover  {
+background:#bfd00f;
+}
+a.green-button
+{
+display: block;
+float: right;
+margin: 0 0 0 20px;
+padding: 15px 25px;
+width: 189px;
+height: 41px;
+color: #fff !important;
+font: 1.6em;
+font-family: verdana, sans-serif;
+background: transparent url('../images/green-button.png') no-repeat 0 0;
+}
+a.green-button span     {
+font: 0.6em Arial; 	display: block;
+width: 100%;
+}
+a.green-button:hover    {
+background-position: 0 -71px; text-decoration: none !important;
+}
+/*END OF MOUNT ROLL-OVER BUTTONS*/
+/* Padding for Tables in rich text boxes */
+td { padding:8px; }
+
+
+
+</style>
+
+<!-- START OF PROXY LINK BUILDER - used in the instruction for how to link to database resources -->
+<script type="text/javascript" src="//libapps-ca.s3.amazonaws.com/sites/1076/include/ProxyLinkBuilder.js"></script>
+<!-- END OF PROXY LINK BUILDER -->
