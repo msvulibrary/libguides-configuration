@@ -1,14 +1,27 @@
-<!-- SIDE NAV -->
+<!-- FOUR COLUMN REDESIGN -->
+
+<!-- [ADMIN_MINI_CMD_BAR] is shown only on the back end of libguides, it's an editing feature. -->
 
 {{skip_link}}{{obsolete_browser_alert}}{{ADMIN_CMD_BAR}}
 
 <!-- BEGIN: Page Header -->
+
+<!--
+  this is the MSVU logo and ribbon header, specified in [Look & Feel] > [Header / Footer / Tabs /
+  Boxes]
+-->
 
 {{public_header}}
 
 <!-- END: Page Header -->
 
 <!-- BEGIN: Guide Header -->
+
+<!--
+  This includes the breadcrumbs just below the MSVU logo, and the search box on the right of the
+  page, the guide title (which is an H1 level heading), and the guide description.
+  [ADMIN_MINI_CMD_BAR] is shown only on the back end of libguides, it's an editing feature.
+-->
 
 <div
   id="s-lg-guide-header"
@@ -25,12 +38,10 @@
     {{ADMIN_MINI_CMD_BAR}}
   </div>
 
-  <div id="s-lg-guide-header-info">
-    <h1 id="s-lg-guide-name">{{guide_title}}</h1>
+  <div id="s-lg-guide-header-info"><h1 id="s-lg-guide-name">{{guide_title}}</h1></div>
 
-    <div id="s-lg-guide-desc-container">
-      <span id="s-lg-guide-description">{{guide_description}}</span>
-    </div>
+  <div id="s-lg-guide-desc-container">
+    <span id="s-lg-guide-description">{{guide_description}}</span>
   </div>
 </div>
 
@@ -40,7 +51,6 @@
   id="s-lg-guide-tabs-title-bar"
   class="container s-lib-side-borders">
 </div>
-
 
 <div
   id="s-lg-side-nav-content"
@@ -57,15 +67,30 @@
           {{side_nav_boxes}}
         </div>
       </div>
-    </div>
 
-    <div class="col-md-9">
-      <div class="s-lg-tab-content">
-        <div
-          id="s-lg-guide-main"
-          class="tab-pane active"
-          tabindex="-1">
-          {{content}}
+      <div class="col-md-9">
+        <div class="s-lg-tab-content">
+          <div class="tab-pane active">
+            <div class="row s-lg-row">
+              <div
+                id="s-lg-col-1"
+                class="col-md-4">
+                <div class="s-lg-col-boxes">{{content_col_1}}</div>
+              </div>
+
+              <div
+                id="s-lg-col-2"
+                class="col-md-4">
+                <div class="s-lg-col-boxes">{{content_col_2}}</div>
+              </div>
+
+              <div
+                id="s-lg-col-3"
+                class="col-md-3">
+                <div class="s-lg-col-boxes">{{content_col_3}}</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -73,7 +98,6 @@
     </div>
   </div>
 </div>
-
 
 <!-- BEGIN: Page Footer -->
 
@@ -107,31 +131,34 @@
       {{login_url_display}}
     </div>
   </div>
+</div>
 
-<!--- STOPPED HERE -->
-
-  <div class="pad-bottom-sm clearfix">
-    <div
-      id="s-lib-footer-support-link"
-      class="pull-right pad-right-med">
-      <a href="mailto:stan.orlov@msvu.ca">Report a problem</a>
-    </div>
-
-    <div
-      id="s-lg-guide-header-subjects"
-      class="pad-top-sm pad-left-med pad-right-med pull-left">
-      {{guide_subjects}}
-    </div>
-
-    <div
-      id="s-lg-guide-header-tags"
-      class="pad-top-sm pad-left-med">
-      {{guide_tags}}
-    </div>
+<div class="pad-bottom-sm clearfix">
+  <div
+    id="s-lib-footer-support-link"
+    class="pull-right pad-right-med">
+    <a href="mailto:sandra.sawchuk@msvu.ca">Report a problem</a>
   </div>
 </div>
 
+<div
+  id="s-lg-guide-header-subjects"
+  class="pad-top-sm pad-left-med pad-right-med pull-left">
+  {{guide_subjects}}
+</div>
+
+<div
+  id="s-lg-guide-header-tags"
+  class="pad-top-sm pad-left-med">
+  {{guide_tags}}
+</div>
+
 <!-- END: Page Footer -->
+
+<!--
+  This is the 'Back to Top' button on the bottom right of the screen. Check the CSS for code that
+  moves this button to a more accessible (for screen readers) location.
+-->
 
 <div id="s-lib-scroll-top">
   <a
@@ -159,6 +186,7 @@
 </div>
 
 <!-- BEGIN: Custom Footer -->
+<!-- This is our Copyright statement. -->
 
 {{public_footer}}
 
